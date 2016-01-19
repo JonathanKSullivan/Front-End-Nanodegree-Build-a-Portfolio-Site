@@ -1,0 +1,86 @@
+@import  "https://fonts.googleapis.com/css?family=Roboto:400,100";
+
+body {
+    -webkit-animation-delay: .1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: .1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width:990px) {
+
+    #header img,#header h1,#header h3 {
+        margin: 0 auto;
+    }
+
+    #header img {
+        max-width: 200px;
+    }
+    #banner img {
+      margin: auto;
+      width: 100%;
+      padding-right: 0;
+    }
+}
+    #nametitle {
+      float:right;
+    }
+    h1 {
+      float: right;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 200;
+      font-size:60px;
+      color:#545754;
+    }
+    header h3 {
+      float: right;
+      font-family: 'Roboto', sans-serif;
+      font-size:28px;
+      margin: 0;
+      color:#545754;
+    }
+    h3, h4{
+      text-align: center;
+    }
+    hr {
+      border: none;
+      height: 6px;
+      color: #bcbbbb;
+      background-color: #bcbbbb;
+      width: auto;
+      margin: 10px 0 26px 15px;"
+    }
+    #featured-work-header{
+      margin:10px 0px 10px 16px;
+      color: #bcbbbb;
+      font-size: 45px;
+      font-weight: 100;
+    }
+    .project-img {
+      margin: auto;
+      width: 90%;
+    }
+    .project-name {
+      text-align:center;
+      color:#747704;
+      font-size:20px;
+    }
+    .project-github-loc{
+      text-align:center;
+      color:#747704;
+    }
+    #featured-work figure{
+      margin-bottom: 15px;
+    }
+}
